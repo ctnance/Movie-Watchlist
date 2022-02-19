@@ -107,6 +107,21 @@ img {
   width: 120px;
 }
 
+.movie-list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2em;
+}
+
+.movie-card {
+  border-bottom: 1px solid #e5e7eb;
+  padding: 0 1em;
+}
+
+.movie-card.description {
+  color: #6b7280;
+}
+
 .no-data {
   display: flex;
   flex-direction: column;
